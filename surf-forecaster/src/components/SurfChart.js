@@ -42,7 +42,7 @@ const options = {
 
 function SurfChart() {
         return (
-            <div className="chartContainer">
+            <div className="chartContainer" id="chart">
                 <h1 style={{ textAlign: 'center' }}>Mission Beach Forecast</h1>
                 <div className="chart">
                     <div style={{ width: '75%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 10 }}>
