@@ -14,7 +14,7 @@ function NavBar() {
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
         <Container fluid>
-            <Navbar.Brand href="#">Surf Buddy</Navbar.Brand>
+            <Navbar.Brand href="/">Surf Buddy</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -22,7 +22,7 @@ function NavBar() {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
             >
-                <Nav.Link href="#action1">Chart</Nav.Link>
+                <Nav.Link href="#chart">Chart</Nav.Link>
                 <Nav.Link href="#action2">Weather</Nav.Link>
                 <NavDropdown title="Local Info" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Hazards</NavDropdown.Item>
