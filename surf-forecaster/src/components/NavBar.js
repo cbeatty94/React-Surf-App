@@ -6,12 +6,13 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import 'bootstrap/dist/css/bootstrap.min.css'
+// import '../App.css'
 
 
 
 function NavBar() {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
         <Container fluid>
             <Navbar.Brand href="#">Surf Buddy</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
