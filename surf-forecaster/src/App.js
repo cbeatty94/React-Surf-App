@@ -7,12 +7,6 @@ function App() {
     <div className="App">
         <NavBar />
         <img src="images/SurfBuddyCover.jpg" alt="Man Surfing Cover" className="coverImage" />
-        <p>
-          Surf Forecaster bitches!
-        </p>
-        <p>
-          Let's get this shit :D
-        </p>
         <SurfChart />
     </div>
   );
