@@ -42,10 +42,12 @@ const options = {
 
 function SurfChart() {
         return (
-            <div id="chart">
+            <div className="chartContainer">
                 <h1 style={{ textAlign: 'center' }}>Mission Beach Forecast</h1>
-                <div style={{ width: '75%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 10 }}>
-                    <Line data={data} options={options} />
+                <div className="chart">
+                    <div style={{ width: '75%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 10 }}>
+                        <Line data={data} options={options} />
+                    </div>
                 </div>
             </div>
         )
