@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function WeatherData() {
 
     const api = {
-        key: 'f25ea385fe6239f2763725d805691c6f',
+        
         url: 'https://api.openweathermap.org/data/2.5/onecall?'
     }
    
